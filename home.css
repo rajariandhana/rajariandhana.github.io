@@ -1,0 +1,115 @@
+/* body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+nav
+{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    float: top;
+    float: left;
+    display: block;
+}
+
+ul li
+{
+    list-style: none;
+    display: inline-block;
+    
+    line-height: 50px;
+}
+
+ul li:hover
+{
+    opacity: 0.8;
+}
+
+ul li:active
+{
+    opacity: 0.5;
+}
+
+ul li a
+{
+    display:block;
+    text-decoration: none;
+    font-size: 14px;
+
+    padding: 0 30px;
+}
+
+.homeButton
+{
+    text-align: center;
+    vertical-align: top;
+
+    background-color: white;
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+
+    height: 50px;
+    width: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.homeButton:active
+{
+    opacity: 0.7;
+}
+
+.buttonLink
+{
+    background-color: blanchedalmond;
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+
+    transition: opacity 0.15s;
+
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonLink:hover
+{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.navbar
+{
+    align-items: center;
+    margin: 0 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eee;
+    text-decoration: none;
+}
