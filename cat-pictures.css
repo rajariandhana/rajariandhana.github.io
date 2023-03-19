@@ -1,0 +1,28 @@
+.generatorButton
+{
+    background-color: #11101b;
+    color: #efefef;
+    font-size: 25;
+
+    display: block;
+    margin: 30px auto;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.generatorButton:hover
+{
+    opacity: 0.8;
+}
+
+.cat-img
+{
+    padding-top: 130px;
+    margin: 0 auto;
+    display: block;
+    height: 600px;
+}

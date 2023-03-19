@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+        <title>Play 2048</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="play-2048.css">
+        
+    </head>
+
+    <body">
+        <header>
+            <nav class="nav-bar">
+                <a class="nav-logo" href="index.html">rajariandhana</a>
+                <ul class="nav-menu">
+                    <!--<li class="nav-item"><a href="index.html">Home</a></li>-->
+                    <li class="nav-item"><a href="play-2048.html" class="nav-link">Play 2048</a></li>
+                    <li class="nav-item"><a href="cat-pictures.html" class="nav-link">Cat Pictures</a></li>
+                    <li class="nav-item"><a href="free-money.html" class="nav-link">Get Free Money</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        
+        
+        <!--
+        <a href="play-2048.html">
+            <button class="buttonLink">New Game</button>
+        </a>
+        -->
+        
+        <h2 class="score">Score : <span id="score">0</span></h2>
+        
+        <div id="board"></div>
+        
+        <p class="guide">Use arrow keys to play this game</p>
+
+        <footer class="footer-section">
+            <ul>
+                <button class="socialButton" onclick="window.location.href='mailto:rajariandhana@gmail.com';">
+                    <img src="social-logo/logo-gmail.png">
+                    rajariandhana@gmail.com
+                </button>
+                <button class="socialButton" onclick="window.open('https://instagram.com/rajariandhana','_blank')">
+
+                    <img src="social-logo/logo-instagram.png">
+                    @rajariandhana
+                </button>
+                <button class="socialButton" onclick="window.open('https://twitter.com/rajariandhana','_blank')">
+                    <img src="social-logo/logo-twitter.png">
+                    @rajariandhana
+                </button>
+                <!--
+                <button class="socialButton" onclick="window.open('https://open.spotify.com/user/ralfazza?si=5cd8611b78244216','_blank')">
+                    <img src="social-logo/logo-spotify.png">
+                    ralfazza
+                </button>
+                -->
+            </ul>
+        </footer>
+        
+
+        
+    </body>
+    <script src="navbar.js"></script>
+    <script src="play-2048.js"></script>
+</html>
