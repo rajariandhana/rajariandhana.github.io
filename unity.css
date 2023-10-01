@@ -1,0 +1,23 @@
+.section1
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 40px 60px;
+    background-color: #B9A3E3;
+    /* color: #11101b; */
+    text-align: justify;
+    max-width: 650px;
+    /* max-width: fit-content; */
+    gap: 28px;
+}
+.section1 .title1
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #11101b;
+}
+.section1 .par1
+{
+    color: #11101b;
+}

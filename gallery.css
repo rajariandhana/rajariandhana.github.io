@@ -1,0 +1,18 @@
+.section1 .gallery-a
+{
+    display: flex;
+    overflow: hidden;
+}
+
+.section1 .gallery-a img
+{
+    /* max-height: 300px; */
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    margin: 0 5px;
+    /* border: 2px solid #ccc; */
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    object-fit: cover;
+}

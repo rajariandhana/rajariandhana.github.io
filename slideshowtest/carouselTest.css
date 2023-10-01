@@ -1,0 +1,87 @@
+body
+{
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #343f4f;
+}
+
+.wrapper
+{
+    max-width: 930px;
+    position: relative;
+}
+
+.wrapper button
+{
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    /* line-height: 46px; */
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper button:hover
+{
+    opacity: 80%;
+}
+
+.wrapper button:active
+{
+    opacity: 60%;
+}
+
+.buttonPrev
+{
+    left: -23px;
+}
+.buttonNext
+{
+    right: -23px;
+}
+
+.wrapper .carousel
+{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel img
+{
+    object-fit: cover;
+    /* margin-left: 14px; */
+    /* width: 200px; Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    width: 300px;
+    margin: 0 5px;
+    object-fit: cover;
+    /* width: calc(100%/3); */
+}
+
+@media screen and (max-width:900px)
+{
+    .carousel img
+    {
+        width: calc(100%/2);
+    }
+}
+
+@media screen and (max-width:550px)
+{
+    .carousel img
+    {
+        width: 100%;
+    }
+}

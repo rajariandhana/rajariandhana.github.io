@@ -1,0 +1,1 @@
+const Gallery-MeijiJIngu = ["mj-1.JPG","mj-2.JPG","mj-3.JPG"];
